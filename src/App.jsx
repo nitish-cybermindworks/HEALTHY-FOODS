@@ -4,10 +4,13 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 
 function App() {
+  // let foodItems = [];
+  let foodItems = ["Dal", "Milk", "Roti", "Salad", "Green Vegetables"];
+
   return (
     <>
       <FoodHeading />
-      <FoodItems />
+      <FoodItems items={foodItems} />
     </>
   );
 }
